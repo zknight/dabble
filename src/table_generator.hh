@@ -1,5 +1,5 @@
 #ifndef AP_TABLE_GENERATOR_HH
-#   define AP_TABLE_GENERATOR
+#   define AP_TABLE_GENERATOR_HH
 #include <vector>
 
 namespace ap

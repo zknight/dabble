@@ -1,0 +1,10 @@
+QMAKE_CXX=g++-4.8
+QMAKE_CXXFLAGS+='-std=c++11'
+TARGET=test
+HEADERS+=common.hh
+HEADERS+=lut.hh
+HEADERS+=sin_gen.hh
+HEADERS+=table_generator.hh
+SOURCES+=lut.cpp
+SOURCES+=singen.cpp
+SOURCES+=test.cpp

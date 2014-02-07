@@ -1,5 +1,6 @@
-QMAKE_CXX=g++-4.8
+;QMAKE_CXX=g++-4.8
 QMAKE_CXXFLAGS+='-std=c++11'
+DEFINES+=kiss_fft_scalar=double
 TARGET=test
 HEADERS+=common.hh
 HEADERS+=lut.hh
@@ -8,3 +9,5 @@ HEADERS+=table_generator.hh
 SOURCES+=lut.cpp
 SOURCES+=singen.cpp
 SOURCES+=test.cpp
+SOURCES+=fft/kiss_fft.c
+SOURCES+=fft/kiss_fftr.c

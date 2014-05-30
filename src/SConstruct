@@ -1,0 +1,7 @@
+env = Environment()
+env.ParseConfig('wx-config-3.0 --cxxflags --libs aui')
+sources = Split('''
+    mainframe.cpp
+    dabble.cpp''')
+
+env.Program('dabble', sources, LIBS = env['LIBS'])
